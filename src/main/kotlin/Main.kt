@@ -1,5 +1,9 @@
 package org.example
 
-fun main() {
-    println("Hello World!")
+import org.example.domain.input.actor.InputActor
+
+fun main(args: Array<String>) {
+    val numericValue = InputActor.getNumericValue()
+
+    println(numericValue)
 }
